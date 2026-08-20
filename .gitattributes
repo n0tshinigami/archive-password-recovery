@@ -1,0 +1,9 @@
+# Exclude build artifacts
+yarn.lock linguist-generated  
+public/*.html linguist-vendored   
+*.png binary
+
+src/** linguist-detectable
+
+*.woff binary
+public/index.html linguist-vendored
